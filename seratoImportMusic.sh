@@ -47,7 +47,8 @@ find "$SOURCE_DIR" -type f \( "${FIND_ARGS[@]}" \) -print0 | while IFS= read -r 
         dest="$DEST_DIR/${name}_$i.$ext"
     fi
 
-    ln -s "$src" "$dest"
+    #ln -s "$src" "$dest"
+    cp --preserve=timestamps "$src" "$dest"
     echo "$src" >> "$IMP_LIST"
 
 done
