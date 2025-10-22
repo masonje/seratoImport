@@ -7,4 +7,4 @@ Save this scrip where you want to store it. Open a terminal and run:
 
 `bash serntoImportMusic.sh`
 
-This script has no warranty on use and is free to use to anyone. Backup your music before running. Enjoy!`
+This script has no warranty on use and is free to use to anyone. Backup your music before running. Enjoy!
